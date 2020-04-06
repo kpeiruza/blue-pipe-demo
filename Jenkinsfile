@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    label 'centos'
+    label 'redhat-family'
   }
   stages {
     stage('Build') {
